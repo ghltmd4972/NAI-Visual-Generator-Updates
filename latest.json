@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "enabled": true,
+  "version": "1.0.1",
+  "published_at": "2026-10-03T00:00:00Z",
+  "notes": "자동 업데이트 시스템 추가. Positive/Negative 그림체 메타데이터 분석 개선.",
+  "app": {
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.0.1/NAI.Visual.Generator.exe",
+    "sha256": "101bc691ddb7b21f801a4aa8b3fe3ce5ae86b7e4c073125910ba0a782022ed40",
+    "size": 77119062
+  },
+  "updater": {
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.0.1/NAIVisualGeneratorUpdater.exe",
+    "sha256": "48284f8653ec0299edb96a31834e0b39d489b9a1fe4f82f52c960d9c9daeb046",
+    "size": 8065587
+  }
+}
