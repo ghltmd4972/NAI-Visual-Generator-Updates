@@ -1,17 +1,17 @@
 {
   "schema": 1,
   "enabled": true,
-  "version": "1.1.2",
-  "published_at": "2026-10-03T01:35:00Z",
-  "notes": "상황·분석 관리 태그 표시 오류 수정. 이미지 1장 분석 시에도 태그가 정상 생성됩니다. 기존 분석의 tag_stats를 UI에 표시합니다. 그림체 분석은 EXIF를 최우선으로 사용합니다. 자동 업데이트 확인은 GitHub Contents API raw 방식으로 변경했습니다.",
+  "version": "1.1.3",
+  "published_at": "2026-10-03T01:50:00Z",
+  "notes": "그림체 EXIF 태그 보존 규칙 개선. artist/quality/rating/year/aesthetic/complexity/nsfw/uncensored/masterpiece/no text와 NovelAI 가중치 문법을 유지하고, 인물·외형·의상·표정·포즈·행동·배경·장소·사물·구도 같은 내용 태그만 제거합니다. 여러 이미지 중 한 장에만 있는 비내용 스타일 태그도 최종 prompt에서 유지됩니다.",
   "app": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.2/NAI.Image.Generator.exe",
-    "sha256": "ef1a5921a3a05c3d22c77252f0bf15fe54d2ad8af0d1cf22e89bd9efaeab42b2",
-    "size": 80216687
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.3/NAI.Image.Generator.exe",
+    "sha256": "b27b929d2d6e127ca1709796366034b2dbfc329bf9524b45d308fbec72e06746",
+    "size": 80219060
   },
   "updater": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.2/NAIVisualGeneratorUpdater.exe",
-    "sha256": "ce0daa4dc1ca67a1f26a0e0d8c933337c6e8efc2ad5aa045df9910361753d5d8",
-    "size": 8064209
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.3/NAIVisualGeneratorUpdater.exe",
+    "sha256": "d291594c58cfbeb4e00b307e68226fb59143c0398303b195e6a48e4acf6a52be",
+    "size": 8065332
   }
 }
