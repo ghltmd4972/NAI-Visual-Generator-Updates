@@ -1,17 +1,17 @@
 {
   "schema": 1,
   "enabled": true,
-  "version": "1.1.1",
-  "published_at": "2026-10-03T01:15:00Z",
-  "notes": "상황·분석 관리 태그 표시 오류 수정. 이미지 1장도 태그가 정상 생성됩니다. 기존 분석의 실제 검출 태그를 UI에 표시합니다. 그림체 분석은 EXIF를 최우선으로 사용하고 기타 내부정보는 fallback으로 사용합니다.",
+  "version": "1.1.2",
+  "published_at": "2026-10-03T01:35:00Z",
+  "notes": "상황·분석 관리 태그 표시 오류 수정. 이미지 1장 분석 시에도 태그가 정상 생성됩니다. 기존 분석의 tag_stats를 UI에 표시합니다. 그림체 분석은 EXIF를 최우선으로 사용합니다. 자동 업데이트 확인은 GitHub Contents API raw 방식으로 변경했습니다.",
   "app": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.1/NAI.Image.Generator.exe",
-    "sha256": "8427efde394debbd58885c59f617da3e5cabd35c24cf3ed74e1cf501943473aa",
-    "size": 80217065
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.2/NAI.Image.Generator.exe",
+    "sha256": "ef1a5921a3a05c3d22c77252f0bf15fe54d2ad8af0d1cf22e89bd9efaeab42b2",
+    "size": 80216687
   },
   "updater": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.1/NAIVisualGeneratorUpdater.exe",
-    "sha256": "378f4545a53e13e270983fa0573e8abeb415a4cc331ff579106d94cb0e4ad42a",
-    "size": 8064978
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.2/NAIVisualGeneratorUpdater.exe",
+    "sha256": "ce0daa4dc1ca67a1f26a0e0d8c933337c6e8efc2ad5aa045df9910361753d5d8",
+    "size": 8064209
   }
 }
