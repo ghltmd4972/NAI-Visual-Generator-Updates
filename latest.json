@@ -1,17 +1,17 @@
 {
   "schema": 1,
   "enabled": true,
-  "version": "1.1.7",
-  "published_at": "2026-10-03T07:30:00Z",
-  "notes": "추가 태그의 태그 선택 버튼을 누르면 프로그램이 종료되던 오류를 수정했습니다. TagDialog의 QListWidgetItem import 누락으로 인한 NameError가 원인이었으며, 태그 선택창 생성·검색·선택·추가 태그 반영 경로까지 회귀테스트했습니다.",
+  "version": "1.1.8",
+  "published_at": "2026-10-03T08:03:00Z",
+  "notes": "상황 참고 이미지의 옷 상태를 전라/상의 탈의/하의 탈의/속옷만/부분 탈의/착의/혼합·불명으로 구분합니다. 전라 상황에서는 랜덤 캐릭터의 기본 상·하의와 신발 태그를 제거하고 nude/completely nude를 유지합니다. 상의 탈의는 하의만, 하의 탈의는 상의만 유지하며 상황 관리 화면에 옷 상태와 신뢰도를 표시합니다.",
   "app": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.7/NAI.Image.Generator.exe",
-    "sha256": "faab24c7e5bee509ff2ec09a74af738a52a516c4e60f9f8e431d61f4bd88b7c5",
-    "size": 80230990
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.8/NAI.Image.Generator.exe",
+    "sha256": "d22b8aae864f69d028d97489ce309ec228e4be4c5f4a608629dbd950fa5acea3",
+    "size": 80236566
   },
   "updater": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.7/NAIVisualGeneratorUpdater.exe",
-    "sha256": "e5ea3bd86f4c7f7d14e80aaae6068d0c7205058818208dd83947c1dbcdf42f7b",
-    "size": 8066273
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.8/NAIVisualGeneratorUpdater.exe",
+    "sha256": "719cba53d6b0cd4f282067d27a1fa7773598c6b6e27177a6ac12b0e45193b366",
+    "size": 8066038
   }
 }
