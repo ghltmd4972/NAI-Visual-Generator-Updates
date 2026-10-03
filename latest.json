@@ -1,17 +1,17 @@
 {
   "schema": 1,
   "enabled": true,
-  "version": "1.1.5",
-  "published_at": "2026-10-03T06:52:00Z",
-  "notes": "그림체/상황 권한 분리. 그림체 프리셋에서는 인물·외형·의상·포즈·행동·배경·장소·사물·촬영환경·구도 태그를 제거하고 artist/quality/rating/year/aesthetic/가중치 태그는 유지합니다. 기존 프리셋도 자동 정리되며, 생성 시 상황은 상황·분석 관리의 분석 결과만 사용합니다.",
+  "version": "1.1.6",
+  "published_at": "2026-10-03T07:10:00Z",
+  "notes": "상황 이미지 자동 분류 추가. 상황 폴더 루트 또는 미분류 폴더를 자동 감시해 체위/명확한 행위 → 2인 이상 → 대표 자세 → 장소 순으로 직관적인 한국어 폴더를 생성하고 이미지를 이동합니다. 애매한 이미지는 분류 보류로 보내며, 이동 후 해당 카테고리 분석도 자동 갱신합니다.",
   "app": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.5/NAI.Image.Generator.exe",
-    "sha256": "d3f6df624f04b90d5b63ef2bf818276fe8253eebd82d7886afa5cf33f9145732",
-    "size": 80221571
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.6/NAI.Image.Generator.exe",
+    "sha256": "5cdf99df55d491e80aa11d3055f33d88c81745f6c849b26e8376ff72c49f7bc9",
+    "size": 80231364
   },
   "updater": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.5/NAIVisualGeneratorUpdater.exe",
-    "sha256": "371206d8d5cc19970b1f09abb149487e4cc154b36bf9224266d88e61b3848367",
-    "size": 8065010
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.6/NAIVisualGeneratorUpdater.exe",
+    "sha256": "bf67972dad3fbe3e2b478214627d7ef49cc52f181a83ee1392a9a708a538e08c",
+    "size": 8062993
   }
 }
