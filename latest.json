@@ -1,17 +1,17 @@
 {
   "schema": 1,
   "enabled": true,
-  "version": "1.1.6",
-  "published_at": "2026-10-03T07:10:00Z",
-  "notes": "상황 이미지 자동 분류 추가. 상황 폴더 루트 또는 미분류 폴더를 자동 감시해 체위/명확한 행위 → 2인 이상 → 대표 자세 → 장소 순으로 직관적인 한국어 폴더를 생성하고 이미지를 이동합니다. 애매한 이미지는 분류 보류로 보내며, 이동 후 해당 카테고리 분석도 자동 갱신합니다.",
+  "version": "1.1.7",
+  "published_at": "2026-10-03T07:30:00Z",
+  "notes": "추가 태그의 태그 선택 버튼을 누르면 프로그램이 종료되던 오류를 수정했습니다. TagDialog의 QListWidgetItem import 누락으로 인한 NameError가 원인이었으며, 태그 선택창 생성·검색·선택·추가 태그 반영 경로까지 회귀테스트했습니다.",
   "app": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.6/NAI.Image.Generator.exe",
-    "sha256": "5cdf99df55d491e80aa11d3055f33d88c81745f6c849b26e8376ff72c49f7bc9",
-    "size": 80231364
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.7/NAI.Image.Generator.exe",
+    "sha256": "faab24c7e5bee509ff2ec09a74af738a52a516c4e60f9f8e431d61f4bd88b7c5",
+    "size": 80230990
   },
   "updater": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.6/NAIVisualGeneratorUpdater.exe",
-    "sha256": "bf67972dad3fbe3e2b478214627d7ef49cc52f181a83ee1392a9a708a538e08c",
-    "size": 8062993
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.7/NAIVisualGeneratorUpdater.exe",
+    "sha256": "e5ea3bd86f4c7f7d14e80aaae6068d0c7205058818208dd83947c1dbcdf42f7b",
+    "size": 8066273
   }
 }
