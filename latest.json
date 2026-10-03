@@ -1,17 +1,17 @@
 {
   "schema": 1,
   "enabled": true,
-  "version": "1.1.4",
-  "published_at": "2026-10-03T07:15:04Z",
-  "notes": "상황 분석 태그가 실제 생성 프롬프트의 장면 기준이 되도록 수정했습니다. 기존 분석 파일의 tag_stats도 fallback으로 사용합니다. 그림체 프리셋에서는 장면·장소·소품·촬영환경 태그를 저장/불러오기/생성 직전에 제거합니다.",
+  "version": "1.1.5",
+  "published_at": "2026-10-03T06:52:00Z",
+  "notes": "그림체/상황 권한 분리. 그림체 프리셋에서는 인물·외형·의상·포즈·행동·배경·장소·사물·촬영환경·구도 태그를 제거하고 artist/quality/rating/year/aesthetic/가중치 태그는 유지합니다. 기존 프리셋도 자동 정리되며, 생성 시 상황은 상황·분석 관리의 분석 결과만 사용합니다.",
   "app": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.4/NAI.Image.Generator.exe",
-    "sha256": "16c1124f9f905e4f47ac950dceeda0514c5031281639420fc24e28a03db13cbf",
-    "size": 80221746
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.5/NAI.Image.Generator.exe",
+    "sha256": "d3f6df624f04b90d5b63ef2bf818276fe8253eebd82d7886afa5cf33f9145732",
+    "size": 80221571
   },
   "updater": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.4/NAIVisualGeneratorUpdater.exe",
-    "sha256": "30ce93afa8351afc1c7646c52de92267f7dc1913ba24c28f38f57fb0d07a5ddc",
-    "size": 8065180
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.5/NAIVisualGeneratorUpdater.exe",
+    "sha256": "371206d8d5cc19970b1f09abb149487e4cc154b36bf9224266d88e61b3848367",
+    "size": 8065010
   }
 }
