@@ -1,17 +1,17 @@
 {
   "schema": 1,
   "enabled": true,
-  "version": "1.1.9",
-  "published_at": "2026-10-04T00:45:00Z",
-  "notes": "초대형 이미지 자동 분류 실패 수정. 13312x19456(258,998,272픽셀) PNG도 WD 분석용으로 안전하게 축소해 처리하며, 개별 이미지 분석 실패가 발생해도 해당 파일만 분류 보류로 보내고 나머지 배치는 계속 진행합니다.",
+  "version": "1.1.10",
+  "published_at": "2026-10-04T01:15:00Z",
+  "notes": "자동 분류 WinError 32 파일 잠금 오류 수정. 이미지 열기 시 잠금 재시도, 재분석에서는 잠긴 파일만 건너뛰고 나머지를 계속 처리하며, 이동이 계속 잠겨 있으면 해당 파일은 원위치에 두고 전체 배치는 계속 진행합니다.",
   "app": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.9/NAI.Image.Generator.exe",
-    "sha256": "8071d80f167fa67813b648fd8b3e2b04309143754da317d041453373ba2bca2f",
-    "size": 80236821
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.10/NAI.Image.Generator.exe",
+    "sha256": "088af7bbbb0a0f689e301f5040b2666713a64c1e3e6981e03fab82e8c08d7abd",
+    "size": 80239387
   },
   "updater": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.9/NAIVisualGeneratorUpdater.exe",
-    "sha256": "e6a2848b92d17b97575399bfc08a8c0b67ffc65618d56d430c2efeb07811aea8",
-    "size": 8064477
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.10/NAIVisualGeneratorUpdater.exe",
+    "sha256": "2d601022fdc228d203cee926c7843fda6d5e52a69a6ef028d10c7d450cac4604",
+    "size": 8065725
   }
 }
