@@ -1,17 +1,17 @@
 {
   "schema": 1,
   "enabled": true,
-  "version": "1.1.18",
-  "published_at": "2026-10-04T06:46:00Z",
-  "notes": "단일 태그 앵커를 매 생성마다 프롬프트 앞쪽에 고정해 반복 생성에서도 계속 적용되도록 수정했습니다. Rule34/Danbooru 랜덤 조합은 매번 새로 생성됩니다. 앱 버전을 VERSION.txt에서 읽도록 통합해 자동 업데이트 버전 판정을 수정했습니다.",
+  "version": "1.1.19",
+  "published_at": "2026-10-04T06:58:00Z",
+  "notes": "사용자 입력 태그를 개수와 관계없이 고정 태그로 유지하도록 수정했습니다. 여러 태그 입력 시 첫 태그를 주제 앵커로 사용해 관련 Rule34/Danbooru 보조 태그를 생성합니다. completely nude/topless/bottomless/underwear only는 캐릭터 의상보다 우선하며 충돌하는 자동 의상 태그를 제거합니다. 3women/3humans 같은 자동 인원수 충돌 태그도 차단했습니다.",
   "app": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.18/NAI.Image.Generator.exe",
-    "sha256": "58fa20614fd985dcb674cbdb0d82f423b4d059de21930bd2453c433380272369",
-    "size": 81146852
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.19/NAI.Image.Generator.exe",
+    "sha256": "e7f99c35490f8e93eb7056296030777aa6bab30b3cfd287a35feb68483c7b3ff",
+    "size": 81148169
   },
   "updater": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.18/NAIVisualGeneratorUpdater.exe",
-    "sha256": "a0107aa701f3533659b6bedbf548c7ecde3ae90ff31da3454451e6473bb01495",
-    "size": 8065485
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.19/NAIVisualGeneratorUpdater.exe",
+    "sha256": "4c0149e1a9458ce54bb4e6f01315cc1dcb4f62dd2e2298263938d21544a0d5c1",
+    "size": 8064912
   }
 }
