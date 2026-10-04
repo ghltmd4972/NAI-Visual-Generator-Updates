@@ -2,16 +2,16 @@
   "schema": 1,
   "enabled": true,
   "version": "1.1.19",
-  "published_at": "2026-10-04T06:58:00Z",
-  "notes": "사용자 입력 태그를 개수와 관계없이 고정 태그로 유지하도록 수정했습니다. 여러 태그 입력 시 첫 태그를 주제 앵커로 사용해 관련 Rule34/Danbooru 보조 태그를 생성합니다. completely nude/topless/bottomless/underwear only는 캐릭터 의상보다 우선하며 충돌하는 자동 의상 태그를 제거합니다. 3women/3humans 같은 자동 인원수 충돌 태그도 차단했습니다.",
+  "published_at": "2026-10-04T07:18:00Z",
+  "notes": "🧩 태그 조합 모드 추가: Rule34/Danbooru 랜덤을 섞지 않고 사용자가 고른 태그만 사용합니다. NovelAI Stealth 메타데이터의 열 우선 alpha LSB 형식을 지원해 EXIF Viewer Parser B와 동일하게 artist/year/quality/style 프롬프트를 복구합니다. 사용자 탈의 태그 우선 및 랜덤 인원수 충돌 차단도 포함됩니다.",
   "app": {
     "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.19/NAI.Image.Generator.exe",
-    "sha256": "e7f99c35490f8e93eb7056296030777aa6bab30b3cfd287a35feb68483c7b3ff",
-    "size": 81148169
+    "sha256": "c3ed7b4915aac12347d8ef4ddfbed01489950a434a0f65e6f5f5a84ceb7aeb94",
+    "size": 81154949
   },
   "updater": {
     "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.19/NAIVisualGeneratorUpdater.exe",
-    "sha256": "4c0149e1a9458ce54bb4e6f01315cc1dcb4f62dd2e2298263938d21544a0d5c1",
-    "size": 8064912
+    "sha256": "b30dda9f8d30d63df1fcf376bc5048fbe069ec80f3177389428909066d7d4034",
+    "size": 8062208
   }
 }
