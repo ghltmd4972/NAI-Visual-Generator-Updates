@@ -1,17 +1,17 @@
 {
   "schema": 1,
   "enabled": true,
-  "version": "1.1.11",
-  "published_at": "2026-10-04T03:59:00Z",
-  "notes": "설정에 캐릭터 데이터베이스 경로 선택 기능을 추가했습니다. JSON DB를 찾아 선택하면 즉시 캐릭터 목록을 다시 불러오며 선택 경로는 다음 실행에도 유지됩니다. 잘못된 DB는 저장 전에 검증하고 외부 DB가 사라지거나 손상된 경우 기본 DB로 안전하게 돌아갑니다.",
+  "version": "1.1.12",
+  "published_at": "2026-10-04T04:53:36Z",
+  "notes": "그림체 이미지 분석 수정. EXIF/내부정보가 없는 참고 이미지에서는 WD 시각 분석을 주 분석원으로 사용하고 스타일/렌더링/색감/조명 카테고리와 반복성을 기준으로 공통 그림체를 추출합니다. 비스타일 잡음은 제외하며 EXIF가 있으면 기존처럼 EXIF 우선 규칙을 유지합니다.",
   "app": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.11/NAI.Image.Generator.exe",
-    "sha256": "85a5fa669e45e6d263a250fd7159157b440ed742ce783b95ff1acee4603869f6",
-    "size": 80241211
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.12/NAI.Image.Generator.exe",
+    "sha256": "c62b23ba3447a898786e6b0f14092b09fdb557d75a649be1a532c522d9481277",
+    "size": 80249595
   },
   "updater": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.11/NAIVisualGeneratorUpdater.exe",
-    "sha256": "a7e78d3176097a6ae36e1e552209368b64e42d6ff77fb4952af8c50a2aaaf700",
-    "size": 8065558
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.12/NAIVisualGeneratorUpdater.exe",
+    "sha256": "3228a2feda9c2d67f3d33459f38be3b367d4a7515116cf627d29252489c6df2a",
+    "size": 8065323
   }
 }
