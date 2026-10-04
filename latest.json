@@ -2,16 +2,16 @@
   "schema": 1,
   "enabled": true,
   "version": "1.1.20",
-  "published_at": "2026-10-04T07:20:00Z",
-  "notes": "그림체 분석 회귀 수정. EXIF 기반 기존 스타일은 메타데이터 없는 visual-only 재분석으로 덮어쓰지 않습니다. 실제 파일 시그니처가 RIFF/WebP인 파일은 확장자와 관계없이 원시 EXIF UserComment를 직접 검사합니다. artist/year/quality/aesthetic/가중치는 보존하고 캐릭터·포즈·행위·배경 태그는 제거하며 혼합 가중치 블록도 스타일 태그만 남깁니다. 자동 업데이트 성공 시 VERSION.txt도 새 버전으로 갱신하고 롤백 시 이전 버전으로 복구합니다.",
+  "published_at": "2026-10-04T08:15:00Z",
+  "notes": "Img2Img 입력 이미지 선택 기능과 그림체 분석 최종 강제 회귀 게이트를 추가했습니다. 이미지 선택 시 NovelAI img2img로 자동 전환되며 Strength/Noise를 조절할 수 있습니다. 그림체 분석 및 Img2Img 회귀 테스트가 실패하면 릴리스 빌드가 중단됩니다.",
   "app": {
     "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.20/NAI.Image.Generator.exe",
-    "sha256": "6d2a0d68715b9fa9180299e3d13f46390745a12148b73ee48e2c9c7552f75484",
-    "size": 81152823
+    "sha256": "883d6f2fc6b6bebea12dcd967735ea402b5330a53bd968195fafe9c15c61f570",
+    "size": 81160201
   },
   "updater": {
     "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.20/NAIVisualGeneratorUpdater.exe",
-    "sha256": "aeb1f0ff07130ad481b4e61b5b65c1afa7c421cdbfbee2d4039998871ad07eaa",
-    "size": 8064814
+    "sha256": "e7ef68dc07d5a2af8074aadd5eb241173bff1d837d26e5e645052e08ec80994b",
+    "size": 8064107
   }
 }
