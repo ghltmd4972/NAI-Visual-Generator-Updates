@@ -1,17 +1,17 @@
 {
   "schema": 1,
   "enabled": true,
-  "version": "1.1.13",
-  "published_at": "2026-10-04T05:07:00Z",
-  "notes": "EXIF 없는 그림체 참고 이미지 분석을 수정했습니다. EXIF/내부 생성정보가 없으면 이미지 자체 시각 분석을 주 분석원으로 사용하고, 인물·의상·포즈·배경은 제외한 스타일 특징을 확정/변형 스타일로 생성합니다.",
+  "version": "1.1.14",
+  "published_at": "2026-10-04T05:25:00Z",
+  "notes": "캐릭터 데이터베이스 원본을 사용자가 직접 관리한 태그_상의하의_최종정리_v13.txt로 교체했습니다. TXT/JSON 경로 선택을 지원하며 현재 원본 666개 항목/634개 이름을 직접 읽습니다. 상의/하의/옷 구분자도 파싱해 탈의 상황의 의상 제거 규칙을 유지합니다.",
   "app": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.13/NAI.Image.Generator.exe",
-    "sha256": "e06ce23597740bbee0577cf75e12a1d3133d75c1734de6e92852d2e806ee828c",
-    "size": 80248923
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.14/NAI.Image.Generator.exe",
+    "sha256": "b7751a3ce672fa6c126a1c6b5c2938ebeb0d3547ccd5e69f50097deae7afe71a",
+    "size": 80251497
   },
   "updater": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.13/NAIVisualGeneratorUpdater.exe",
-    "sha256": "fb1b7927ec97532811da13467f794657fbfbd3bd5f0ea51acfe9e966179906ef",
-    "size": 8064187
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.14/NAIVisualGeneratorUpdater.exe",
+    "sha256": "13c95e1ed8075e83e20dfebd8065a2544fdec6501841fd1ab33527279d99191c",
+    "size": 8065088
   }
 }
