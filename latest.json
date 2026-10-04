@@ -2,16 +2,16 @@
   "schema": 1,
   "enabled": true,
   "version": "1.1.20",
-  "published_at": "2026-10-04T08:15:00Z",
-  "notes": "Img2Img 입력 이미지 선택 기능과 그림체 분석 최종 강제 회귀 게이트를 추가했습니다. 이미지 선택 시 NovelAI img2img로 자동 전환되며 Strength/Noise를 조절할 수 있습니다. 그림체 분석 및 Img2Img 회귀 테스트가 실패하면 릴리스 빌드가 중단됩니다.",
+  "published_at": "2026-10-04T12:12:00Z",
+  "notes": "메인 화면에 입력 이미지 선택/해제와 Img2Img Strength/Noise 조절을 추가했습니다. 이미지가 선택되면 NovelAI Img2Img로 생성하고, 선택하지 않으면 기존 Text2Img로 생성합니다. 그림체 분석 최종 강제 게이트와 Img2Img 회귀 게이트를 배포 스크립트에 연결해 이후 업데이트에서 기능 누락 시 빌드가 중단됩니다.",
   "app": {
     "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.20/NAI.Image.Generator.exe",
-    "sha256": "883d6f2fc6b6bebea12dcd967735ea402b5330a53bd968195fafe9c15c61f570",
-    "size": 81160201
+    "sha256": "80f5321b8b1b98b75f3d7b5a42ccedcc073b6c24f71031f39707b2459377952b",
+    "size": 81156759
   },
   "updater": {
     "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.20/NAIVisualGeneratorUpdater.exe",
-    "sha256": "e7ef68dc07d5a2af8074aadd5eb241173bff1d837d26e5e645052e08ec80994b",
-    "size": 8064107
+    "sha256": "3bd149abd6e66d1d8f251668c8d8b8e76860b8fa5797631a0779ece2fc3f49d0",
+    "size": 8064704
   }
 }
