@@ -1,17 +1,17 @@
 {
   "schema": 1,
   "enabled": true,
-  "version": "1.1.14",
-  "published_at": "2026-10-04T05:25:00Z",
-  "notes": "캐릭터 데이터베이스 원본을 사용자가 직접 관리한 태그_상의하의_최종정리_v13.txt로 교체했습니다. TXT/JSON 경로 선택을 지원하며 현재 원본 666개 항목/634개 이름을 직접 읽습니다. 상의/하의/옷 구분자도 파싱해 탈의 상황의 의상 제거 규칙을 유지합니다.",
+  "version": "1.1.18",
+  "published_at": "2026-10-04T06:46:00Z",
+  "notes": "단일 태그 앵커를 매 생성마다 프롬프트 앞쪽에 고정해 반복 생성에서도 계속 적용되도록 수정했습니다. Rule34/Danbooru 랜덤 조합은 매번 새로 생성됩니다. 앱 버전을 VERSION.txt에서 읽도록 통합해 자동 업데이트 버전 판정을 수정했습니다.",
   "app": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.14/NAI.Image.Generator.exe",
-    "sha256": "b7751a3ce672fa6c126a1c6b5c2938ebeb0d3547ccd5e69f50097deae7afe71a",
-    "size": 80251497
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.18/NAI.Image.Generator.exe",
+    "sha256": "58fa20614fd985dcb674cbdb0d82f423b4d059de21930bd2453c433380272369",
+    "size": 81146852
   },
   "updater": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.14/NAIVisualGeneratorUpdater.exe",
-    "sha256": "13c95e1ed8075e83e20dfebd8065a2544fdec6501841fd1ab33527279d99191c",
-    "size": 8065088
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.18/NAIVisualGeneratorUpdater.exe",
+    "sha256": "a0107aa701f3533659b6bedbf548c7ecde3ae90ff31da3454451e6473bb01495",
+    "size": 8065485
   }
 }
