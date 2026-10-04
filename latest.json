@@ -1,17 +1,17 @@
 {
   "schema": 1,
   "enabled": true,
-  "version": "1.1.10",
-  "published_at": "2026-10-04T01:15:00Z",
-  "notes": "자동 분류 WinError 32 파일 잠금 오류 수정. 이미지 열기 시 잠금 재시도, 재분석에서는 잠긴 파일만 건너뛰고 나머지를 계속 처리하며, 이동이 계속 잠겨 있으면 해당 파일은 원위치에 두고 전체 배치는 계속 진행합니다.",
+  "version": "1.1.11",
+  "published_at": "2026-10-04T03:59:00Z",
+  "notes": "설정에 캐릭터 데이터베이스 경로 선택 기능을 추가했습니다. JSON DB를 찾아 선택하면 즉시 캐릭터 목록을 다시 불러오며 선택 경로는 다음 실행에도 유지됩니다. 잘못된 DB는 저장 전에 검증하고 외부 DB가 사라지거나 손상된 경우 기본 DB로 안전하게 돌아갑니다.",
   "app": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.10/NAI.Image.Generator.exe",
-    "sha256": "088af7bbbb0a0f689e301f5040b2666713a64c1e3e6981e03fab82e8c08d7abd",
-    "size": 80239387
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.11/NAI.Image.Generator.exe",
+    "sha256": "85a5fa669e45e6d263a250fd7159157b440ed742ce783b95ff1acee4603869f6",
+    "size": 80241211
   },
   "updater": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.10/NAIVisualGeneratorUpdater.exe",
-    "sha256": "2d601022fdc228d203cee926c7843fda6d5e52a69a6ef028d10c7d450cac4604",
-    "size": 8065725
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.11/NAIVisualGeneratorUpdater.exe",
+    "sha256": "a7e78d3176097a6ae36e1e552209368b64e42d6ff77fb4952af8c50a2aaaf700",
+    "size": 8065558
   }
 }
