@@ -1,16 +1,16 @@
 {
   "schema": 1,
   "enabled": true,
-  "version": "1.1.21",
-  "published_at": "2026-10-05T13:17:39Z",
-  "notes": "Rule34 + Danbooru 랜덤을 선택 태그 기반 실제 공존 태그 랜덤 방식으로 변경했습니다. 선택 태그는 항상 고정되고 Danbooru 공존표 및, 설정된 경우 Rule34 공식 API 게시물의 공존 태그에서 매번 다른 조합을 생성합니다. 반복 생성은 관련 태그 캐시를 사용합니다.",
+  "version": "1.1.22",
+  "published_at": "2026-10-05T13:30:46Z",
+  "notes": "그림체 라이브러리의 기존 UI 스타일은 그대로 유지하고 대표 이미지 썸네일 저장/표시만 추가했습니다. 저장 시 대표 이미지는 data/styles/_thumbnails에 복사되어 원본 파일이 이동되거나 삭제되어도 유지됩니다.",
   "app": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.21/NAI.Image.Generator.exe",
-    "sha256": "3528ad0705d5a47654ecbba9b6d0e0a8997805e521a2ea996cae3c548008bd92",
-    "size": 81169319
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.22/NAI.Image.Generator.exe",
+    "sha256": "15b6d748ff8a40d819534b07f5eb6ff7e00f50405efb8e3fd2f43af81951ab0c",
+    "size": 81167408
   },
   "updater": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.21/NAIVisualGeneratorUpdater.exe",
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.22/NAIVisualGeneratorUpdater.exe",
     "sha256": "3bd149abd6e66d1d8f251668c8d8b8e76860b8fa5797631a0779ece2fc3f49d0",
     "size": 8064704
   }
