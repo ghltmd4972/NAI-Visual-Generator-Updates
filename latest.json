@@ -1,16 +1,16 @@
 {
   "schema": 1,
   "enabled": true,
-  "version": "1.1.24",
-  "published_at": "2026-10-05T14:08:18Z",
-  "notes": "181018149 폴더 24장을 분석해 핵심/구도/장소/행동을 분리한 181018149 구도팩을 추가했습니다. 1koma 핵심은 유지하고 카메라·장소·연출 그룹을 각각 가중 랜덤으로 조합합니다.",
+  "version": "1.1.25",
+  "published_at": "2026-10-05T14:21:42Z",
+  "notes": "181018149 고정 상황 팩을 제거하고 범용 장면 랜덤 모드를 추가했습니다. 181018149는 구도 성향 참고자료로만 사용하며 카메라·장소·행동을 서로 호환되게 매번 새로 조합합니다.",
   "app": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.24/NAI.Image.Generator.exe",
-    "sha256": "0879fa6ccbe73b903971462b0df31a6d54e36e8c87f3f1129811c266c6994835",
-    "size": 81169613
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.25/NAI.Image.Generator.exe",
+    "sha256": "49071069140daffe1c1c6aea84c26a44e179dfddbc6d1932949034ba35378a38",
+    "size": 81175353
   },
   "updater": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.24/NAIVisualGeneratorUpdater.exe",
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.25/NAIVisualGeneratorUpdater.exe",
     "sha256": "3bd149abd6e66d1d8f251668c8d8b8e76860b8fa5797631a0779ece2fc3f49d0",
     "size": 8064704
   }
