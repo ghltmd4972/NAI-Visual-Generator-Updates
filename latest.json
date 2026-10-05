@@ -1,16 +1,16 @@
 {
   "schema": 1,
   "enabled": true,
-  "version": "1.1.23",
-  "published_at": "2026-10-05T13:44:30Z",
-  "notes": "그림체 라이브러리 왼쪽 목록을 실제 썸네일 영역 + 그림체 이름 행으로 표시하도록 수정했습니다. 대표 이미지를 저장하면 data/styles/_thumbnails에 내부 보존되며 원본 삭제 후에도 유지됩니다. 기존 대표 이미지 파일이 이미 삭제된 프리셋은 썸네일 자리에서 없음으로 표시됩니다.",
+  "version": "1.1.24",
+  "published_at": "2026-10-05T14:08:18Z",
+  "notes": "181018149 폴더 24장을 분석해 핵심/구도/장소/행동을 분리한 181018149 구도팩을 추가했습니다. 1koma 핵심은 유지하고 카메라·장소·연출 그룹을 각각 가중 랜덤으로 조합합니다.",
   "app": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.23/NAI.Image.Generator.exe",
-    "sha256": "1ba73fc297d137a990e3c236a7001efe3e17bf19614506458237dc51051ec5d4",
-    "size": 81169904
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.24/NAI.Image.Generator.exe",
+    "sha256": "0879fa6ccbe73b903971462b0df31a6d54e36e8c87f3f1129811c266c6994835",
+    "size": 81169613
   },
   "updater": {
-    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.23/NAIVisualGeneratorUpdater.exe",
+    "url": "https://github.com/ghltmd4972/NAI-Visual-Generator-Updates/releases/download/v1.1.24/NAIVisualGeneratorUpdater.exe",
     "sha256": "3bd149abd6e66d1d8f251668c8d8b8e76860b8fa5797631a0779ece2fc3f49d0",
     "size": 8064704
   }
